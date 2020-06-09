@@ -1,0 +1,23 @@
+div {
+  font-family: Helvetica, serif;
+  color: black;
+}
+
+div .excerpt {
+  font-weight: bold;
+}
+
+h2, h3 {
+  text-align: center;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+h2 {
+  color: #8f0c0c;
+}
+
+h3 {
+  color: #368f0c;
+}
+/*# sourceMappingURL=customstyles.css.map */

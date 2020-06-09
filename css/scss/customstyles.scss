@@ -1,0 +1,30 @@
+$font-stack:    Helvetica, serif;
+$primary-color: rgb(143, 12, 12);
+$sec-color: rgb(54, 143, 12);
+$content: rgb(0,0,0);
+
+div{
+  font-family: $font-stack;
+  color: $content;
+  .excerpt{
+    font-weight: bold;
+  }
+}
+
+%heading{
+  text-align: center;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+h2{
+  @extend %heading;
+  color: $primary-color;
+}
+
+h3{
+  @extend %heading;
+  color: $sec-color;
+}
+
+
